@@ -1,87 +1,120 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;    
-    font-weight: 300;
-    line-height: 1.5;
-    color: #2f2121;
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;    
+  font-weight: 300;
+  line-height: 1.5;
+  color: #3a1919;  
+}
+
+.header {
+  padding-top: 45px;
+  padding-bottom: 20px;
+  background: #462828;
+	height: 100px;
+  
   }
 
-  .header {
+.nav {
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+
+.nav-item{ 
+   display: inline;
+   list-style: none;
+   font-size: 20px;
+   margin-inline-start: 40px;
+   margin-inline-end: 10px;
+   padding-inline-start: 20px;  
+
+}
+
+.nav-link {
+  color:antiquewhite;
+  transition: .3s;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: bisque;
+}
+
+
+.container {
+    display: flex;
+    align-items: start;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #FFFF;
+    color: #3a1919
+     
+  }
+
+  .main {
+    
+  }
+  
+  .about_me {
+  text-align: center;
+  }
+  .code {
+    color: #974e4e;
+  }
+
+  .footer {
+    padding-top: 45px;
+    padding-right: 50px;
     background: #462828;
 	  height: 100px;
-  }
-
-  .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-   
-  }
-
-  .blok {
-    align-items: center;
-  }
-
-
-  .main-page {
-    background: #cec9c9;
-  }
-
-  .nav {
-    display: block;
-  }
-
     
-
-    .nav-List {
-        list-style: none;
-        
-    }
-    
-
-    .nav-item {
-       display: inline;
-        font-size: 20px;
-        margin-inline-start: 40px;
-        margin-inline-end: 10px;
-        padding-inline-start: 20px;  
-        
-    }  
-    .nav-link {
-      color:antiquewhite;
-     
-    } 
-
-    .text-footer {
-      background: #462828;
-	    height: 100px;
-      
-    }
-
-    .lost {
-      list-style: none;
-    }
-    .github {
-      color:antiquewhite
     }
 
     .rss {
-      width: 100px;
-    height: 45px;
-    background-image:url(./assets/svg/rs_school_js.svg);
-    background-size: contain;
-    background-repeat: no-repeat
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+      }
+
+    .lost {
+      list-style: none;
+      
     }
 
+    .github {
+      color:antiquewhite;
+      font-size: 20px;
+      transition: .3s;
+      text-decoration: none;
+      
+    }
+
+    .github:hover {
+      color: bisque;
+    }
+    
+    .github:active {
+      color: rgb(250, 203, 145);
+    }
+
+
+
+
+
+
+
+   
   
-
-
-
-
-    
-
-    
- 
-
-
 
