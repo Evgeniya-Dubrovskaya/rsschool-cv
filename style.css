@@ -1,7 +1,11 @@
+* {
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
 .body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;    
   font-weight: 300;
@@ -10,11 +14,12 @@
 }
 
 .header {
-  padding-top: 45px;
+  padding-top: 25px;
   padding-bottom: 20px;
   background: #462828;
 	height: 100px;
-  
+  justify-content: space-between;
+
   }
 
 .nav {
@@ -51,6 +56,11 @@
   color: bisque;
 }
 
+html {
+  scroll-behavior: smooth; 
+}
+
+
 
 .container {
     display: flex;
@@ -62,22 +72,66 @@
      
   }
 
-  .main {
-    
-  }
-  
-  .about_me {
-  text-align: center;
-  }
-  .code {
-    color: #974e4e;
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    text-align: justify;
   }
 
+  
+  
+  .about_me {
+    margin-top: 0;
+    line-height: 30px;
+  }
+
+    
+  
+    .section {
+      width: 50%;
+      border-bottom-right-radius: 1px;
+      border-bottom: 3px dashed rgb(87, 143, 153);
+      border-bottom-color: rgb(19, 70, 25)
+    }
+  
+  
+  .section-title {
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 50;
+
+
+  }
+  .img {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 35%;
+     margin: 50px;
+    
+
+  }
+  section {
+    display: block;
+  }
+  .code {
+    font-size: 18px;
+    background-color: #f5f5f5;
+    
+  }
+  P {
+    font-size: 20;
+  }
+
+
   .footer {
-    padding-top: 45px;
+    padding-top: 20px;
     padding-right: 50px;
     background: #462828;
 	  height: 100px;
+    
+    
     
     }
 
@@ -85,6 +139,9 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      padding: 0px;
+      margin: 0px
+      
       
       }
 
