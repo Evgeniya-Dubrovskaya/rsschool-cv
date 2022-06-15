@@ -12,20 +12,28 @@ html {
 }
 
 
-
-.header {
-  background-color: #86B3D1;
-  margin-bottom: 30px;
+body {
+  background-color: #f5f5f58f;
+  transition: all 0.3s;
 }
+
+
+
 
 .header__wrapper {
   padding: 9px 0;
+  
+}
+
+.header__color {
+  background-color: #86B3D1;
 }
 
 .container {
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 30px;
+   
 
 }
 
@@ -67,13 +75,19 @@ html {
 .main {
   display: block;
   margin-bottom: auto;
-}
-
-.hero {
-  padding-bottom: 30px;
-  border-bottom: 8px solid #5f63661a;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 30px 0 30px;
+  background-color: #ffffff;
+  box-shadow: 20px 20px 35px 15px #0000003a;
   
 }
+
+.hero {  
+  padding-bottom: 30px; 
+  border-bottom: 8px solid #d1ced650; 
+}
+
 
 
 .hero__wrapper {
@@ -81,6 +95,7 @@ html {
   padding: 40px 46px;
   align-items: center;
   justify-content: space-around;
+  
   
 }
 
@@ -134,7 +149,7 @@ html {
   text-transform: uppercase;
   color: #FAFAFA;
   background-color: #EDB5BF;
-  padding: 20px 36px;
+  padding: 14px 36px;
   border-radius: 20px;
   text-shadow: #1112133a 2px 2px 0;
 }
@@ -376,10 +391,11 @@ a {
 }
 
 
-.footer {
-  padding: 10px 0 0;
-  background-color: #86B3D1
-  
+
+
+.footer__color {
+  background-color: #86B3D1;
+
 }
 
 .footer_wrapper {
